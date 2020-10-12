@@ -10,6 +10,7 @@
 
     <link href="dist/lity.css" rel="stylesheet">
 
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
@@ -17,6 +18,7 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= yield %>
+    <script src="vendor/jquery.js"></script>
     <script src="dist/lity.js"></script>
   </body>
 </html>
