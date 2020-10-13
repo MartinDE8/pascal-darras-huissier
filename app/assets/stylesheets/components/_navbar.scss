@@ -4,7 +4,8 @@
 }
 
 .navbar-lewagon-white {
-  background: white;
+  background: #cca000;
+  opacity: 0.7;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -18,7 +19,7 @@
   color: white;
   font-size: 18px;
    &:hover{
-  color: #BB9C99;
+  color: #cca000;
   }
 }
 

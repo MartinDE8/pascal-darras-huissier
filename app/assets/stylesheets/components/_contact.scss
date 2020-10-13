@@ -1,3 +1,52 @@
-.container-contact{
-  background-color:blue;
+.background-image{
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1580591708651-1e4a533bbaf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+}
+
+.container img {
+  max-width: 150px;
+  max-height: 120px;
+}
+
+.container .text{
+  max-width: 600px;
+  margin-left: 24px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.contact-detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  max-width: 400px;
+}
+
+.background-image h1{
+  color: #cca000;
+  margin: 24px 0px 24px 0px;
+}
+
+.background-image h3{
+  color: #cca000;
+  margin-bottom: 24px;
+  font-family: 'Roboto';
+  font-weight: thiner;
+}
+
+.background-image p {
+  color: white;
+}
+
+.background-image i {
+  font-size: 24px;
+  color: #cca000;
+  margin: 0px 16px 16px 0px;
+}
+
+.background-image .address .text {
+  border: 2px solid #cca000;
+  margin-right: 24px;
+  padding: 16px;
 }
