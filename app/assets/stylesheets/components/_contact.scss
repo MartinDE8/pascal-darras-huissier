@@ -46,7 +46,17 @@
 }
 
 .background-image .address .text {
-  border: 2px solid #cca000;
-  margin-right: 24px;
-  padding: 16px;
+  border-left: 2px solid #cca000;
+  margin-right: 32px;
+  padding-left:24px;
 }
+
+.background-image a{
+  color: white;
+  margin-bottom: 16px;
+}
+
+.background-image a:hover{
+  color: #cca000;
+}
+
