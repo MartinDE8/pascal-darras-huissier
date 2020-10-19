@@ -1,44 +1,95 @@
 .home-banner {
-  background-image: url('https://images.unsplash.com/photo-1576092762791-dd9e2220abd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80');
+  background-image: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80');
   background-size: cover;
   display: flex;
   height: 100vh;
   color: #eee;
-  padding-top: 30vh;
+  padding-top: 10vh;
 }
 
+// 'https://images.unsplash.com/photo-1461998570988-d0c4afd3d26e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+// 'https://images.unsplash.com/photo-1544807459-eb0ae8cda3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80'
+// 'https://images.unsplash.com/photo-1515611926865-4fcb1c2ce28d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80'
+// 'https://images.unsplash.com/photo-1444159759392-aeeb3d5851c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+//'https://images.unsplash.com/photo-1458501534264-7d326fa0ca04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'
+//'https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80'
+// 'https://images.unsplash.com/photo-1516896639087-0be23b946744?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
+// 'https://media.istockphoto.com/photos/cairn-on-the-pier-picture-id173745720?k=6&m=173745720&s=170667a&w=0&h=tO6eXiIFYNk0QEDXK3QWOPRVl4vtQQQH_n9nZzI4q-Y='
 // https://images.unsplash.com/photo-1476989142744-32553061aca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'
 .home-banner img{
-  width: 200px;
-  margin-left: 64px;
+  max-width: 200px;
+  margin-bottom: 32px;
 }
 
 h1 {
   font-family: 'Roboto';
-  margin-left: 64px;
   margin-bottom: 32px;
-  margin-top: 32px;
 }
 
 .home-banner span {
   color: #cca000;
 }
 
-.home-banner p {
+.home-banner .col-8 p {
   font-size: 20px;
   font-weight: thiner;
-  margin-left: 64px;
   margin-bottom: 32px;
+  font-family: 'Roboto';
 }
 
-.home-banner a {
-  margin-left: 64px;
-  margin-bottom: 32px;
+.home-banner .col-8 p span {
+  font-weight: bold;
+  font-family: 'Roboto';
 }
 
-.home-banner a .btn {
-  margin-top: 32px;
+.home-banner .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.home-banner .col-4{
+  background-color: rgba(204, 170, 0, 0.7);
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.home-banner .col-4 p {
+  margin-bottom: 0px;
+  margin-left: 16px;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+
+.home-banner .col-4 a {
+  margin-bottom: 0px;
+  margin-left: 16px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  &:hover{
+    color: lightgrey;
+  }
+}
+
+.home-banner .col-4 i {
+  font-size: 24px;
+}
+
+.home-banner .col-4 .contact-detail {
+  padding: 8px;
+  margin-left: 16px;
+}
+
+.home-banner .btn {
+  padding: 12px;
+  margin-right: 16px;
+}
+
+//// CARDS
+
 
 .col-12 {
   display: flex;
