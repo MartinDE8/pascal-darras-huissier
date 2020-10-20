@@ -2,7 +2,8 @@
 
 <div class="home-banner">
   <div class="container">
-    <div class='intro col-8'>
+    <div class="row">
+    <div class='intro col-12 col-lg-8'>
       <h1>Maître Pascal Darras<br>Huissier de Justice Associé <br><span>à Valenciennes.</span></h1>
       <p>Compétence <span>Cour d'Appel de Douai(59, 62)</span><br>
       Compétence <span>Nationale pour vos constats</span></p>
@@ -11,7 +12,7 @@
         <button class="btn btn-dark" onclick="window.open('https://www.huissier-waterlot-valenciennes.com/content/contact.php', '_blank')">Contact</button>
       </div>
     </div>
-    <div class="address-intro col-4">
+    <div class="address-intro col-12 col-lg-4">
       <div class="contact-detail">
         <i class="fas fa-map-marker-alt"></i>
         <p>47 Rue de Paris <br>
@@ -23,7 +24,7 @@
       </div>
       <div class="contact-detail">
         <i class="fas fa-envelope"></i>
-        <a href="mailto:valenciennes@huissier-waterlot.com?subject=Via URL TO BE ADDED">valenciennes@huissier-waterlot.com</a>
+        <a class ="inline" href="mailto:valenciennes@huissier-waterlot.com?subject=Via URL TO BE ADDED">valenciennes@huissier-waterlot.com</a>
       </div>
       <div class="contact-detail">
         <i class="far fa-clock"></i>
@@ -32,27 +33,35 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
 
 <!--Cards under home page banner -->
 
 <div class="container">
-  <div class="col-12">
-    <div class ="col-4 box">
+  <div class="row">
+    <div class ="col-12 col-lg-4">
+      <div class="box">
       <%= image_tag 'waterlotnav.png' %>
       <h5>Waterlot et Associés</h5>
       <p>C'est la force de 8 huissiers associés, 2 huissiers salariés et 60 collaborateurs unis dans un seul but: vous satisfaire!</p>
     </div>
-    <div class="col-4 box">
-      <img src='https://images.unsplash.com/photo-1580591708651-1e4a533bbaf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt="Compétence lcoale" class="rounded">
-      <h5>Compétence cour d'Appel de Douai</h6>
-      <p>Sur l'ensemble du 59, 62, notre étude vous accompagne en matière de recouvrement judiciaire, signification d'actes,
-         gestion locative, contentieux locatifs.</p>
     </div>
-    <div class="col-4 box">
-      <img src="https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2082&q=80" alt="compétence nationale" class="rounded">
-      <h5>Compétence Nationale pour vos constats</h5>
-      <p>Au niveau National, l'étude vous accompagne en matière de constats (voirie, malfaçon, états des lieux, SMS) et recouvrement amiable.</p>
+    <div class="col-12 col-lg-4">
+      <div class="box">
+        <img src='https://images.unsplash.com/photo-1580591708651-1e4a533bbaf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' alt="Compétence lcoale" class="rounded">
+        <h5>Compétence cour d'Appel de Douai</h5>
+        <p>Sur l'ensemble du 59, 62, notre étude vous accompagne en matière de recouvrement judiciaire, signification d'actes,
+         gestion locative, contentieux locatifs.</p>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="box">
+        <img src="https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2082&q=80" alt="compétence nationale" class="rounded">
+        <h5>Compétence Nationale pour vos constats</h5>
+        <p>Au niveau National, l'étude vous accompagne en matière de constats (voirie, malfaçon,
+        états des lieux, SMS) et recouvrement amiable.</p>
+      </div>
     </div>
   </div>
 </div>
