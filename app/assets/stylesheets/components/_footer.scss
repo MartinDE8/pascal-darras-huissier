@@ -30,3 +30,14 @@
 
 
 }
+
+
+@media(max-width: 992px) {
+  .footer-copyright {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+}
