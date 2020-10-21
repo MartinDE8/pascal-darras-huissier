@@ -17,6 +17,16 @@
 
 }
 
+@media(max-width: 768px) {
+  .background-image .container img {
+    display: none;
+  }
+
+  .background-image h1 {
+    margin: 16px 0px 16px 16px;
+  }
+}
+
 .background-image .contact-text{
   display: flex;
   justify-content: center;
