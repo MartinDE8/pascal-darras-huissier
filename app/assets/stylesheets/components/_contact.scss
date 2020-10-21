@@ -17,13 +17,16 @@
 
 }
 
-@media(max-width: 768px) {
+@media(max-width: 468px) {
   .background-image .container img {
     display: none;
   }
+}
 
+
+@media(max-width: 768px) {
   .background-image h1 {
-    margin: 16px 0px 16px 16px;
+    margin: 16px 0px 16px 16px !important;
   }
 }
 
