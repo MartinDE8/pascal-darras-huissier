@@ -20,11 +20,11 @@ import 'bootstrap';
 
 // Javascript
 import { changeNavbarBackgroundOnScroll } from '../components/navbar';
-//import { loadDynamicBannerText } from '../components/banner';
+import { loadDynamicBannerText } from '../components/banner';
 
 // add all JS functions to turbolinks
 
 document.addEventListener('turbolinks:load', () => {
   changeNavbarBackgroundOnScroll();
-  //loadDynamicBannerText();
+  loadDynamicBannerText();
 });
